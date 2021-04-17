@@ -1,0 +1,46 @@
+/**
+ * Styles for the add-observation.html page 
+ */
+
+#new-obs>div {
+    border: 1px solid #9ed7e7;
+    border-radius: 5px;
+
+    padding: 0 8px 10px 8px;
+    margin: 15px 0;
+}
+
+h4 {
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    top: -13px;
+    background-color: white;
+}
+
+label {
+    display: block;
+}
+
+.description,
+textarea.notes,
+.photo {
+    width: 70%;
+}
+
+.guess {
+    width: 20%;
+}
+
+.file {
+    width: auto;
+}
+
+.license {
+    width: 73%;
+}
+
+
+.required {
+    color: red;
+}
